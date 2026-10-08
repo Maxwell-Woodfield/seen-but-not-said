@@ -1,0 +1,9 @@
+{
+  "dataset": "dermamnist",
+  "tune_n": 300,
+  "n_overlap": 0,
+  "n_overlap_val": 0,
+  "n_overlap_test": 0,
+  "exclude_tune_indices": [],
+  "overlaps": []
+}

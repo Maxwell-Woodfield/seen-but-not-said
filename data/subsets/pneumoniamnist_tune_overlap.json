@@ -1,0 +1,33 @@
+{
+  "dataset": "pneumoniamnist",
+  "tune_n": 300,
+  "n_overlap": 2,
+  "n_overlap_val": 2,
+  "n_overlap_test": 0,
+  "exclude_tune_indices": [
+    289,
+    662
+  ],
+  "overlaps": [
+    {
+      "tune_index": 289,
+      "label": 1,
+      "matches": [
+        {
+          "split": "val",
+          "index": 172
+        }
+      ]
+    },
+    {
+      "tune_index": 662,
+      "label": 1,
+      "matches": [
+        {
+          "split": "val",
+          "index": 236
+        }
+      ]
+    }
+  ]
+}

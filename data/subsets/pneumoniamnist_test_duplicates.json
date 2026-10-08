@@ -1,0 +1,46 @@
+{
+  "dataset": "pneumoniamnist",
+  "split": "test",
+  "n": 624,
+  "n_distinct": 621,
+  "groups": [
+    {
+      "indices": [
+        170,
+        311
+      ],
+      "labels": [
+        1,
+        1
+      ],
+      "same_label": true
+    },
+    {
+      "indices": [
+        302,
+        401
+      ],
+      "labels": [
+        1,
+        1
+      ],
+      "same_label": true
+    },
+    {
+      "indices": [
+        440,
+        538
+      ],
+      "labels": [
+        1,
+        1
+      ],
+      "same_label": true
+    }
+  ],
+  "keep_first_drop": [
+    311,
+    401,
+    538
+  ]
+}

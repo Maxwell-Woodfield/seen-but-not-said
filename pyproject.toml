@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "effvar"
+version = "0.1.0"
+description = "Visual attention redistribution (VAR) and visual contrastive decoding (VCD) with MedGemma-1.5-4b-it on MedMNIST"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.11"
+# The exact versions used for the paper are pinned in environment.yml.
+# torch and torchvision must be CUDA builds: install them first (see README.md, "Setup").
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers>=5.17.0",
+    "accelerate",
+    "huggingface_hub",
+    "medmnist>=3.0",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "joblib",
+    "pyyaml",
+    "pillow",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["effvar*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

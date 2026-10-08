@@ -1,0 +1,74 @@
+# The conda environment used for every run in the paper (Windows 11, NVIDIA GeForce RTX 3060 12 GB).
+# torch and torchvision are the CUDA 13.0 builds from the PyTorch wheel index; the NVIDIA driver must support CUDA 13.0.
+#
+#   conda env create -f environment.yml
+#   conda activate effvar
+#   pip install -e . --no-deps
+name: effvar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - pip=26.2.1
+  - setuptools=84.0.0
+  - wheel=0.48.0
+  - packaging=26.3
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.14.0+cu130
+      - torchvision==0.29.0+cu130
+      - transformers==5.17.0
+      - accelerate==1.15.0
+      - huggingface_hub==1.32.0
+      - hf-xet==1.6.0
+      - tokenizers==0.23.2
+      - safetensors==0.8.0
+      - medmnist==3.0.2
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - scikit-learn==1.9.1
+      - joblib==1.6.0
+      - threadpoolctl==3.7.0
+      - PyYAML==6.0.3
+      - pillow==12.3.0
+      - pytest==9.1.1
+      - annotated-doc==0.0.5
+      - anyio==4.15.1
+      - certifi==2026.7.22
+      - click==8.5.0
+      - cloudpickle==3.1.2
+      - colorama==0.4.6
+      - filelock==3.32.3
+      - fire==0.7.1
+      - fsspec==2026.7.0
+      - h11==0.16.0
+      - httpcore==1.0.9
+      - httpx==0.28.1
+      - idna==3.20
+      - ImageIO==2.37.4
+      - iniconfig==2.3.0
+      - Jinja2==3.1.6
+      - lazy-loader==0.6
+      - markdown-it-py==4.2.0
+      - MarkupSafe==3.0.3
+      - mdurl==0.1.2
+      - mpmath==1.3.0
+      - narwhals==2.26.0
+      - networkx==3.6.1
+      - pandas==3.0.6
+      - pluggy==1.6.0
+      - psutil==7.2.2
+      - Pygments==2.21.0
+      - python-dateutil==2.9.0.post0
+      - regex==2026.9.10
+      - rich==15.0.0
+      - scikit-image==0.26.0
+      - shellingham==1.5.4
+      - six==1.17.0
+      - sympy==1.14.0
+      - termcolor==3.3.0
+      - tifffile==2026.3.3
+      - tqdm==4.70.1
+      - typer==0.27.2
+      - typing_extensions==4.16.0
+      - tzdata==2026.4

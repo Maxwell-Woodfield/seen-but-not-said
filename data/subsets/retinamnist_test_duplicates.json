@@ -1,0 +1,8 @@
+{
+  "dataset": "retinamnist",
+  "split": "test",
+  "n": 400,
+  "n_distinct": 400,
+  "groups": [],
+  "keep_first_drop": []
+}

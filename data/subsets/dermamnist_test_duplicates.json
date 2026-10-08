@@ -1,0 +1,8 @@
+{
+  "dataset": "dermamnist",
+  "split": "test",
+  "n": 2005,
+  "n_distinct": 2005,
+  "groups": [],
+  "keep_first_drop": []
+}

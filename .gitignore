@@ -1,0 +1,25 @@
+# MedMNIST downloads and the projected-image-feature cache
+data/medmnist/
+data/cache/
+
+# Run outputs: every script writes under results/
+results/
+
+# Local pre-registration record read by the VCD scripts' guard (see README.md, "VCD")
+notes/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# OS, editors and local assistant settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+CLAUDE.md

@@ -1,0 +1,217 @@
+{
+ "_meta": {
+  "source": "results/tune/sinkcheck",
+  "images": 900,
+  "note": "Modal full sink set (vis+text, absolute token ids) per layer over 900 TUNE images (train split). Used ONLY by the timing-only R_det1215 arm to stand in for the detector in the 20 positional layers (notes/sink_geometry.md). MUST NEVER BE RE-DERIVED FROM val OR test: val made the R pick and test is untouched, so fitting this set on either would leak the evaluation split into the method's constants.",
+  "positional_layers": [
+   9,
+   10,
+   11,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32
+  ],
+  "detect_layers": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   12,
+   13,
+   14,
+   15,
+   33
+  ],
+  "derived_from_split": "train (tune subsets, 300/dataset, seed 0)"
+ },
+ "sets": {
+  "9": {
+   "sinks": [
+    0,
+    1,
+    197,
+    276
+   ],
+   "modal_share": 0.3322,
+   "distinct": 11
+  },
+  "10": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 0.9933,
+   "distinct": 5
+  },
+  "11": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 0.9367,
+   "distinct": 36
+  },
+  "16": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 0.7689,
+   "distinct": 44
+  },
+  "17": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 0.8689,
+   "distinct": 4
+  },
+  "18": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 0.9989,
+   "distinct": 2
+  },
+  "19": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "20": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "21": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "22": {
+   "sinks": [
+    0,
+    1,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "23": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "24": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "25": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "26": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "27": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "28": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "29": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "30": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "31": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  },
+  "32": {
+   "sinks": [
+    0,
+    197
+   ],
+   "modal_share": 1.0,
+   "distinct": 1
+  }
+ }
+}
