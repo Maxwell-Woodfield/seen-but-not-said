@@ -1,7 +1,7 @@
 # Seen but Not Said
 
 Code for the paper **Seen but Not Said: Visual Attention Redistribution and Contrastive Decoding in a Medical
-Vision-Language Model** ([`paper.pdf`](paper.pdf); under double-blind review).
+Vision-Language Model** ([`paper.pdf`](paper.pdf)).
 
 This repository holds what is needed to re-run the study: the `effvar` package, the command-line scripts, the tests,
 the frozen subset files and the pinned environment. Model weights, MedMNIST images and run outputs are not included:
