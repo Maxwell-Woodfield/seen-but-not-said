@@ -227,9 +227,6 @@ Without a GPU, run `python -m pytest tests/ --ignore=tests/test_vision_cache.py`
   they govern; there was no external registry) are not part of this repository.
 - The code and its outputs are for research only and are not intended for clinical use.
 
-## Citation
-
-The paper is under double-blind review; a citation entry will be added when it is published.
 
 ## Licence and acknowledgements
 
